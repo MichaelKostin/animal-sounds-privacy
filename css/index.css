@@ -1,0 +1,99 @@
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8fafc;
+    color: #222;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(135deg, #66c1ff, #9ce07a);
+    color: white;
+    padding: 60px 20px 40px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.4em;
+}
+
+p.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.store-btn {
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+    padding: 6px 18px;
+    background: black;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+    max-width: 200px;
+    border: 2px solid #363636;
+}
+
+.store-btn svg {
+    fill: white;
+}
+
+.store-btn div {
+    padding-left: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.store-btn div .store-name {
+    font-size: 1.9rem;
+}
+
+.store-btn:hover {
+    transform: scale(1.05);
+}
+
+.qr-code {
+    border-radius: 8px;
+    border: 8px solid #ffffff;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+img.screenshot {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+
+footer {
+    background: #f1f5f9;
+    padding: 30px 10px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+footer a {
+    color: #444;
+    text-decoration: none;
+}
