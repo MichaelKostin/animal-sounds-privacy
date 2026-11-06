@@ -1,0 +1,66 @@
+{
+  "lang": "nl",
+  "language": "Nederlands",
+  "dir": "ltr",
+  "appName": "Dierengeluiden: Leer en Speel",
+  "privacy": "Privacybeleid",
+  "support": "Contact Ondersteuning",
+  "screenshots": [
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-c.png",
+      "alt": "Dierenkaarten scherm"
+    },
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-p.png",
+      "alt": "Dierenkaarten scherm"
+    }
+  ],
+  "storeApple": "Download in de",
+  "storeGoogle": "Download op",
+  "animals": {
+    "cow": "Koe",
+    "dog": "Hond",
+    "cat": "Kat",
+    "sheep": "Schaap",
+    "duck": "Eend",
+    "horse": "Paard"
+  },
+  "listenHint": "Tik op een dier om zijn echte geluid te horen.",
+  "quizTitle": "Geluidenquiz",
+  "quizHint": "Luister aandachtig en kies het juiste dier!",
+  "start": "Quiz starten",
+  "replay": "Herhalen",
+  "next": "Volgende",
+  "retry": "Opnieuw proberen",
+  "correct": "Goed gedaan!",
+  "restart": "Nog een keer",
+  "features": "Ontdek dierengeluiden, puzzels en quizzen.",
+  "photos": "Kies echte foto's of cartoons. Je kunt dit later altijd wijzigen in de instellingen.",
+  "hero": "Dierengeluiden voor kleine ontdekkers",
+  "tryDemo": "Probeer de dierengeluiden",
+  "demoIntro": "Ontdek zes dieren uit het gratis pakket van onze app. Luister en ontdek samen.",
+  "quizIntro": "Drie rondes. Luister naar het geluid en kies uit drie dieren.",
+  "round": "Ronde {current} van {total}",
+  "complete": "Je hebt alle drie de dieren gevonden! Speel opnieuw of ontdek meer in de app.",
+  "audioError": "Het geluid kon niet worden afgespeeld. Tik opnieuw om het nog eens te proberen.",
+  "stop": "Geluid stoppen",
+  "download": "Ontdek meer in de app",
+  "freeQ": "Wat is gratis?",
+  "freeA": "Deze website bevat zes voorbeelddieren. Het gratis pakket in de app bevat 12 dieren; extra inhoud is beschikbaar via optionele in-appaankopen.",
+  "browserQ": "Heb ik de app nodig om de geluiden te proberen?",
+  "browserA": "Nee. Beluister deze zes geluiden in je browser zonder account. Deze demo heeft internet nodig om afbeeldingen en geluiden te laden.",
+  "parentsQ": "Voor wie is dit?",
+  "parentsA": "Voor peuters en kleuters die samen met een ouder of verzorger dierengeluiden ontdekken. Luister eerst en probeer daarna samen het korte raadspel.",
+  "faq": "Vragen van ouders",
+  "languageLabel": "Taal",
+  "skip": "Naar de dierengeluiden",
+  "screenshotNote": "Schermafbeeldingen van de app; sommige schermen kunnen in het Engels zijn.",
+  "speech": {
+    "cow": "/assets/demo/speech/nl/cow.mp3",
+    "dog": "/assets/demo/speech/nl/dog.mp3",
+    "cat": "/assets/demo/speech/nl/cat.mp3",
+    "sheep": "/assets/demo/speech/nl/sheep.mp3",
+    "duck": "/assets/demo/speech/nl/duck.mp3",
+    "horse": "/assets/demo/speech/nl/horse.mp3"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "lang": "pt",
+  "language": "Português",
+  "dir": "ltr",
+  "appName": "Sons dos Animais: Aprenda e Brinque",
+  "privacy": "Política de Privacidade",
+  "support": "Contatar Suporte",
+  "screenshots": [
+    {
+      "src": "img/screenshots/pt-iPhone-Air-home-1-c.png",
+      "alt": "Tela de cartões de animais"
+    },
+    {
+      "src": "img/screenshots/pt-iPhone-Air-home-1-p.png",
+      "alt": "Tela de cartões de animais"
+    }
+  ],
+  "storeApple": "Baixar na",
+  "storeGoogle": "Disponível no",
+  "animals": {
+    "cow": "Vaca",
+    "dog": "Cachorro",
+    "cat": "Gato",
+    "sheep": "Ovelha",
+    "duck": "Pato",
+    "horse": "Cavalo"
+  },
+  "listenHint": "Toque em um animal para ouvir seu som real.",
+  "quizTitle": "Quiz de sons",
+  "quizHint": "Ouça com atenção e escolha o animal correto!",
+  "start": "Iniciar o quiz",
+  "replay": "Repetir",
+  "next": "Próximo",
+  "retry": "Tentar novamente",
+  "correct": "Muito bem!",
+  "restart": "Jogar novamente",
+  "features": "Explore sons de animais, quebra-cabeças e quizzes.",
+  "photos": "Fotos reais ou desenhos animados — mude a qualquer momento nas configurações.",
+  "hero": "Sons de animais para pequenos exploradores",
+  "tryDemo": "Experimente os sons",
+  "demoIntro": "Conheça seis animais do pacote gratuito do nosso app. Ouçam e explorem juntos.",
+  "quizIntro": "Três rodadas. Ouça o som e escolha um dos três animais.",
+  "round": "Rodada {current} de {total}",
+  "complete": "Você encontrou os três animais! Jogue novamente ou descubra mais no app.",
+  "audioError": "Não foi possível reproduzir o som. Toque novamente para tentar.",
+  "stop": "Parar o som",
+  "download": "Continue explorando no app",
+  "freeQ": "O que é grátis?",
+  "freeA": "Este site inclui seis animais de demonstração. O pacote gratuito do app inclui 12 animais; mais conteúdo está disponível por meio de compras opcionais no app.",
+  "browserQ": "Preciso do app para experimentar os sons?",
+  "browserA": "Não. Ouça os seis sons no navegador sem cadastro. Esta demonstração precisa de internet para carregar imagens e sons.",
+  "parentsQ": "Para quem é?",
+  "parentsA": "Para crianças pequenas e em idade pré-escolar explorarem sons de animais com um responsável. Ouçam primeiro e depois experimentem juntos o jogo de adivinhação.",
+  "faq": "Perguntas dos responsáveis",
+  "languageLabel": "Idioma",
+  "skip": "Ir para os sons de animais",
+  "screenshotNote": "Capturas do app; algumas telas podem estar em inglês.",
+  "speech": {
+    "cow": "/assets/demo/speech/pt/cow.mp3",
+    "dog": "/assets/demo/speech/pt/dog.mp3",
+    "cat": "/assets/demo/speech/pt/cat.mp3",
+    "sheep": "/assets/demo/speech/pt/sheep.mp3",
+    "duck": "/assets/demo/speech/pt/duck.mp3",
+    "horse": "/assets/demo/speech/pt/horse.mp3"
+  }
+}

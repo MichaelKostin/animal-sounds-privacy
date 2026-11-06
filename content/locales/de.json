@@ -1,0 +1,66 @@
+{
+  "lang": "de",
+  "language": "Deutsch",
+  "dir": "ltr",
+  "appName": "Tiergeräusche: Lernen & Spielen",
+  "privacy": "Datenschutzrichtlinie",
+  "support": "Support kontaktieren",
+  "screenshots": [
+    {
+      "src": "img/screenshots/de-iPhone-Air-home-1-c.png",
+      "alt": "Tierkarten-Bildschirm"
+    },
+    {
+      "src": "img/screenshots/de-iPhone-Air-home-1-p.png",
+      "alt": "Tierkarten-Bildschirm"
+    }
+  ],
+  "storeApple": "Laden Sie im",
+  "storeGoogle": "Jetzt bei",
+  "animals": {
+    "cow": "Kuh",
+    "dog": "Hund",
+    "cat": "Katze",
+    "sheep": "Schaf",
+    "duck": "Ente",
+    "horse": "Pferd"
+  },
+  "listenHint": "Tippe auf ein Tier, um sein echtes Geräusch zu hören.",
+  "quizTitle": "Geräusche-Quiz",
+  "quizHint": "Hör genau zu und wähle das richtige Tier!",
+  "start": "Quiz starten",
+  "replay": "Wiederholen",
+  "next": "Weiter",
+  "retry": "Erneut versuchen",
+  "correct": "Toll gemacht!",
+  "restart": "Noch einmal spielen",
+  "features": "Entdecke Tierlaute, Puzzles und Quizspiele.",
+  "photos": "Echte Fotos oder Cartoons – du kannst jederzeit in den Einstellungen wechseln.",
+  "hero": "Tierstimmen für kleine Entdecker",
+  "tryDemo": "Tierstimmen ausprobieren",
+  "demoIntro": "Entdeckt sechs Tiere aus dem kostenlosen Paket unserer App. Hört und spielt gemeinsam.",
+  "quizIntro": "Drei Runden. Höre zu und wähle eines von drei Tieren.",
+  "round": "Runde {current} von {total}",
+  "complete": "Du hast alle drei Tiere gefunden! Spiele erneut oder entdecke mehr in der App.",
+  "audioError": "Der Ton konnte nicht abgespielt werden. Tippe zum Wiederholen erneut.",
+  "stop": "Ton stoppen",
+  "download": "In der App weiterentdecken",
+  "freeQ": "Was ist kostenlos?",
+  "freeA": "Diese Website bietet sechs Beispieltiere. Das kostenlose Paket der App enthält 12 Tiere. Weitere Inhalte sind über optionale In-App-Käufe erhältlich.",
+  "browserQ": "Brauche ich die App, um die Geräusche auszuprobieren?",
+  "browserA": "Nein. Die sechs Tierstimmen lassen sich ohne Anmeldung im Browser abspielen. Zum Laden der Bilder und Geräusche benötigt diese Web-Demo eine Internetverbindung.",
+  "parentsQ": "Für wen ist das gedacht?",
+  "parentsA": "Für Kleinkinder und Vorschulkinder, die mit Eltern oder Betreuungspersonen Tierstimmen entdecken. Hört zuerst zu und probiert dann gemeinsam das kurze Ratespiel.",
+  "faq": "Fragen für Eltern",
+  "languageLabel": "Sprache",
+  "skip": "Zu den Tierstimmen springen",
+  "screenshotNote": "App-Bilder; einige Ansichten können auf Englisch sein.",
+  "speech": {
+    "cow": "/assets/demo/speech/de/cow.mp3",
+    "dog": "/assets/demo/speech/de/dog.mp3",
+    "cat": "/assets/demo/speech/de/cat.mp3",
+    "sheep": "/assets/demo/speech/de/sheep.mp3",
+    "duck": "/assets/demo/speech/de/duck.mp3",
+    "horse": "/assets/demo/speech/de/horse.mp3"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "lang": "pl",
+  "language": "Polski",
+  "dir": "ltr",
+  "appName": "Dźwięki Zwierząt: Ucz się i Baw",
+  "privacy": "Polityka Prywatności",
+  "support": "Skontaktuj się z Wsparciem",
+  "screenshots": [
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-c.png",
+      "alt": "Ekran kart zwierząt"
+    },
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-p.png",
+      "alt": "Ekran kart zwierząt"
+    }
+  ],
+  "storeApple": "Pobierz z",
+  "storeGoogle": "Pobierz z",
+  "animals": {
+    "cow": "Krowa",
+    "dog": "Pies",
+    "cat": "Kot",
+    "sheep": "Owca",
+    "duck": "Kaczka",
+    "horse": "Koń"
+  },
+  "listenHint": "Dotknij zwierzęcia, aby usłyszeć jego prawdziwy dźwięk.",
+  "quizTitle": "Quiz dźwiękowy",
+  "quizHint": "Słuchaj uważnie i wybierz właściwe zwierzę!",
+  "start": "Rozpocznij quiz",
+  "replay": "Powtórz",
+  "next": "Dalej",
+  "retry": "Spróbuj ponownie",
+  "correct": "Świetna robota!",
+  "restart": "Zagraj ponownie",
+  "features": "Poznaj odgłosy zwierząt, puzzle i quizy.",
+  "photos": "Wybierz prawdziwe zdjęcia lub ilustracje. Możesz to później zmienić w ustawieniach.",
+  "hero": "Odgłosy zwierząt dla małych odkrywców",
+  "tryDemo": "Wypróbuj odgłosy zwierząt",
+  "demoIntro": "Poznaj sześć zwierząt z bezpłatnego pakietu naszej aplikacji. Słuchajcie i odkrywajcie razem.",
+  "quizIntro": "Trzy rundy. Posłuchaj odgłosu i wybierz jedno z trzech zwierząt.",
+  "round": "Runda {current} z {total}",
+  "complete": "Udało się znaleźć wszystkie trzy zwierzęta! Zagraj ponownie lub odkryj więcej w aplikacji.",
+  "audioError": "Nie udało się odtworzyć dźwięku. Dotknij ponownie, aby spróbować jeszcze raz.",
+  "stop": "Zatrzymaj dźwięk",
+  "download": "Odkrywaj dalej w aplikacji",
+  "freeQ": "Co jest bezpłatne?",
+  "freeA": "Ta strona udostępnia sześć przykładowych zwierząt. Bezpłatny pakiet aplikacji zawiera 12 zwierząt. Dodatkowe treści są dostępne poprzez opcjonalne zakupy w aplikacji.",
+  "browserQ": "Czy potrzebuję aplikacji, aby wypróbować dźwięki?",
+  "browserA": "Nie. Posłuchaj sześciu odgłosów w przeglądarce bez rejestracji. Demo wymaga internetu do wczytania obrazków i dźwięków.",
+  "parentsQ": "Dla kogo jest ta zabawa?",
+  "parentsA": "Dla maluchów i przedszkolaków odkrywających odgłosy zwierząt z rodzicem lub opiekunem. Najpierw posłuchajcie, a potem spróbujcie krótkiej zgadywanki.",
+  "faq": "Pytania rodziców",
+  "languageLabel": "Język",
+  "skip": "Przejdź do odgłosów zwierząt",
+  "screenshotNote": "Zrzuty ekranu aplikacji; niektóre ekrany mogą być po angielsku.",
+  "speech": {
+    "cow": "/assets/demo/speech/pl/cow.mp3",
+    "dog": "/assets/demo/speech/pl/dog.mp3",
+    "cat": "/assets/demo/speech/pl/cat.mp3",
+    "sheep": "/assets/demo/speech/pl/sheep.mp3",
+    "duck": "/assets/demo/speech/pl/duck.mp3",
+    "horse": "/assets/demo/speech/pl/horse.mp3"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "lang": "sv",
+  "language": "Svenska",
+  "dir": "ltr",
+  "appName": "Djurljud: Lär och Lek",
+  "privacy": "Integritetspolicy",
+  "support": "Kontakta Support",
+  "screenshots": [
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-c.png",
+      "alt": "Djurkort skärm"
+    },
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-p.png",
+      "alt": "Djurkort skärm"
+    }
+  ],
+  "storeApple": "Ladda ner från",
+  "storeGoogle": "Ladda ner på",
+  "animals": {
+    "cow": "Ko",
+    "dog": "Hund",
+    "cat": "Katt",
+    "sheep": "Får",
+    "duck": "Anka",
+    "horse": "Häst"
+  },
+  "listenHint": "Tryck på ett djur för att höra dess riktiga ljud.",
+  "quizTitle": "Ljudquiz",
+  "quizHint": "Lyssna noga och välj rätt djur!",
+  "start": "Starta quizet",
+  "replay": "Upprepa",
+  "next": "Nästa",
+  "retry": "Försök igen",
+  "correct": "Bra jobbat!",
+  "restart": "Spela igen",
+  "features": "Upptäck djurläten, pussel och frågesporter.",
+  "photos": "Riktiga foton eller tecknade bilder — byt när som helst i inställningarna.",
+  "hero": "Djurläten för små upptäckare",
+  "tryDemo": "Prova djurläten",
+  "demoIntro": "Träffa sex djur från appens gratispaket. Lyssna och upptäck tillsammans.",
+  "quizIntro": "Tre omgångar. Lyssna på ljudet och välj ett av tre djur.",
+  "round": "Omgång {current} av {total}",
+  "complete": "Du hittade alla tre djuren! Spela igen eller upptäck mer i appen.",
+  "audioError": "Ljudet kunde inte spelas upp. Tryck igen för att försöka på nytt.",
+  "stop": "Stoppa ljudet",
+  "download": "Fortsätt upptäcka i appen",
+  "freeQ": "Vad är gratis?",
+  "freeA": "Den här webbplatsen innehåller sex exempeldjur. Appens gratispaket innehåller 12 djur; mer innehåll finns via valfria köp i appen.",
+  "browserQ": "Behöver jag appen för att prova ljuden?",
+  "browserA": "Nej. Lyssna på de sex ljuden i webbläsaren utan registrering. Demon behöver internet för att ladda bilder och ljud.",
+  "parentsQ": "Vem är det för?",
+  "parentsA": "Småbarn och förskolebarn som upptäcker djurläten med en förälder eller annan vuxen. Lyssna först och prova sedan den korta gissningsleken tillsammans.",
+  "faq": "Frågor från föräldrar",
+  "languageLabel": "Språk",
+  "skip": "Hoppa till djurläten",
+  "screenshotNote": "Skärmbilder från appen; vissa skärmar kan vara på engelska.",
+  "speech": {
+    "cow": "/assets/demo/speech/sv/cow.mp3",
+    "dog": "/assets/demo/speech/sv/dog.mp3",
+    "cat": "/assets/demo/speech/sv/cat.mp3",
+    "sheep": "/assets/demo/speech/sv/sheep.mp3",
+    "duck": "/assets/demo/speech/sv/duck.mp3",
+    "horse": "/assets/demo/speech/sv/horse.mp3"
+  }
+}

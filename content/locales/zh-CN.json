@@ -1,0 +1,66 @@
+{
+  "lang": "zh-CN",
+  "language": "简体中文",
+  "dir": "ltr",
+  "appName": "动物声音：学习与游戏",
+  "privacy": "隐私政策",
+  "support": "联系支持",
+  "screenshots": [
+    {
+      "src": "img/screenshots/zh-CN-iPhone-Air-home-1-c.png",
+      "alt": "动物卡片屏幕"
+    },
+    {
+      "src": "img/screenshots/zh-CN-iPhone-Air-home-1-p.png",
+      "alt": "动物卡片屏幕"
+    }
+  ],
+  "storeApple": "在",
+  "storeGoogle": "在",
+  "animals": {
+    "cow": "奶牛",
+    "dog": "狗",
+    "cat": "猫",
+    "sheep": "绵羊",
+    "duck": "鸭子",
+    "horse": "马"
+  },
+  "listenHint": "点击动物，听一听它真实的叫声。",
+  "quizTitle": "听声猜动物",
+  "quizHint": "仔细聆听并选择正确的动物！",
+  "start": "开始竞猜",
+  "replay": "重播",
+  "next": "下一步",
+  "retry": "重试",
+  "correct": "真棒！",
+  "restart": "再玩一次",
+  "features": "探索动物叫声、拼图和问答游戏。",
+  "photos": "真实照片或卡通插画，可随时在设置中切换。",
+  "hero": "为小小探索家准备的动物叫声",
+  "tryDemo": "试听动物叫声",
+  "demoIntro": "认识应用免费包中的六种动物。一起聆听，一起探索。",
+  "quizIntro": "共三轮。听叫声，从三种动物中选出答案。",
+  "round": "第 {current} 轮，共 {total} 轮",
+  "complete": "三种动物都找到了！再玩一次，或到应用中探索更多。",
+  "audioError": "无法播放声音，请再次点击重试。",
+  "stop": "停止播放",
+  "download": "在应用中继续探索",
+  "freeQ": "哪些内容免费？",
+  "freeA": "本网站提供六种动物供体验。应用的免费包包含12种动物，更多内容可通过自愿的应用内购买获取。",
+  "browserQ": "试听叫声需要安装应用吗？",
+  "browserA": "不需要。无需注册，即可在浏览器中听这六种叫声。此演示需要联网加载图片和声音。",
+  "parentsQ": "适合谁使用？",
+  "parentsA": "适合在家长或看护人陪伴下探索动物叫声的幼儿和学龄前儿童。先一起听，再试试简短的猜动物游戏。",
+  "faq": "家长常见问题",
+  "languageLabel": "语言",
+  "skip": "跳转到动物叫声",
+  "screenshotNote": "应用截图；部分画面可能以英语显示。",
+  "speech": {
+    "cow": "/assets/demo/speech/zh-CN/cow.mp3",
+    "dog": "/assets/demo/speech/zh-CN/dog.mp3",
+    "cat": "/assets/demo/speech/zh-CN/cat.mp3",
+    "sheep": "/assets/demo/speech/zh-CN/sheep.mp3",
+    "duck": "/assets/demo/speech/zh-CN/duck.mp3",
+    "horse": "/assets/demo/speech/zh-CN/horse.mp3"
+  }
+}

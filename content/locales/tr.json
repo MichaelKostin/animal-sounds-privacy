@@ -1,0 +1,66 @@
+{
+  "lang": "tr",
+  "language": "Türkçe",
+  "dir": "ltr",
+  "appName": "Hayvan Sesleri: Öğren ve Oyna",
+  "privacy": "Gizlilik Politikası",
+  "support": "Destek ile İletişim",
+  "screenshots": [
+    {
+      "src": "img/screenshots/tr-iPhone-Air-home-1-c.png",
+      "alt": "Hayvan kartları ekranı"
+    },
+    {
+      "src": "img/screenshots/tr-iPhone-Air-home-1-p.png",
+      "alt": "Hayvan kartları ekranı"
+    }
+  ],
+  "storeApple": "App Store'dan",
+  "storeGoogle": "Google Play'den",
+  "animals": {
+    "cow": "İnek",
+    "dog": "Köpek",
+    "cat": "Kedi",
+    "sheep": "Koyun",
+    "duck": "Ördek",
+    "horse": "At"
+  },
+  "listenHint": "Bir hayvana dokunarak gerçek sesini duyun.",
+  "quizTitle": "Ses testi",
+  "quizHint": "Dikkatli dinleyin ve doğru hayvanı seçin!",
+  "start": "Testi başlat",
+  "replay": "Tekrarla",
+  "next": "Sonraki",
+  "retry": "Tekrar dene",
+  "correct": "Harika!",
+  "restart": "Tekrar oyna",
+  "features": "Hayvan seslerini, yapbozları ve bilgi oyunlarını keşfet.",
+  "photos": "Gerçek fotoğraflar veya çizimler arasında seçim yapın; ayarlardan istediğiniz zaman değiştirebilirsiniz.",
+  "hero": "Küçük kâşifler için hayvan sesleri",
+  "tryDemo": "Hayvan seslerini dene",
+  "demoIntro": "Uygulamamızın ücretsiz paketinden altı hayvanla tanışın. Birlikte dinleyin ve keşfedin.",
+  "quizIntro": "Üç tur. Sesi dinle ve üç hayvandan birini seç.",
+  "round": "Tur {current} / {total}",
+  "complete": "Üç hayvanı da buldun! Tekrar oyna veya uygulamada daha fazlasını keşfet.",
+  "audioError": "Ses çalınamadı. Yeniden denemek için tekrar dokun.",
+  "stop": "Sesi durdur",
+  "download": "Uygulamada keşfetmeye devam edin",
+  "freeQ": "Neler ücretsiz?",
+  "freeA": "Bu sitede altı örnek hayvan bulunur. Uygulamanın ücretsiz paketi 12 hayvan içerir; ek içerik isteğe bağlı uygulama içi satın alımlarla sunulur.",
+  "browserQ": "Sesleri denemek için uygulama gerekli mi?",
+  "browserA": "Hayır. Kayıt olmadan bu altı sesi tarayıcınızda dinleyin. Bu demo, resimleri ve sesleri yüklemek için internet bağlantısı gerektirir.",
+  "parentsQ": "Kimler için?",
+  "parentsA": "Bir ebeveyn veya yetişkinle hayvan seslerini keşfeden küçük çocuklar ve okul öncesi çocuklar için. Önce dinleyin, sonra kısa tahmin oyununu birlikte deneyin.",
+  "faq": "Ebeveynlerin soruları",
+  "languageLabel": "Dil",
+  "skip": "Hayvan seslerine geç",
+  "screenshotNote": "Uygulama ekran görüntüleri; bazı ekranlar İngilizce olabilir.",
+  "speech": {
+    "cow": "/assets/demo/speech/tr/cow.mp3",
+    "dog": "/assets/demo/speech/tr/dog.mp3",
+    "cat": "/assets/demo/speech/tr/cat.mp3",
+    "sheep": "/assets/demo/speech/tr/sheep.mp3",
+    "duck": "/assets/demo/speech/tr/duck.mp3",
+    "horse": "/assets/demo/speech/tr/horse.mp3"
+  }
+}

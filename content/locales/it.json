@@ -1,0 +1,66 @@
+{
+  "lang": "it",
+  "language": "Italiano",
+  "dir": "ltr",
+  "appName": "Suoni degli Animali: Impara e Gioca",
+  "privacy": "Informativa sulla Privacy",
+  "support": "Contatta il Supporto",
+  "screenshots": [
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-c.png",
+      "alt": "Schermata delle carte degli animali"
+    },
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-p.png",
+      "alt": "Schermata delle carte degli animali"
+    }
+  ],
+  "storeApple": "Scarica su",
+  "storeGoogle": "Scarica su",
+  "animals": {
+    "cow": "Mucca",
+    "dog": "Cane",
+    "cat": "Gatto",
+    "sheep": "Pecora",
+    "duck": "Anatra",
+    "horse": "Cavallo"
+  },
+  "listenHint": "Tocca un animale per sentire il suo suono reale.",
+  "quizTitle": "Quiz dei versi",
+  "quizHint": "Ascolta attentamente e scegli l'animale giusto!",
+  "start": "Inizia il quiz",
+  "replay": "Ripeti",
+  "next": "Avanti",
+  "retry": "Riprova",
+  "correct": "Ottimo lavoro!",
+  "restart": "Gioca ancora",
+  "features": "Scopri versi degli animali, puzzle e quiz.",
+  "photos": "Foto reali o illustrazioni — cambia in qualsiasi momento nelle impostazioni.",
+  "hero": "Versi degli animali per piccoli esploratori",
+  "tryDemo": "Prova i versi degli animali",
+  "demoIntro": "Scopri sei animali del pacchetto gratuito della nostra app. Ascoltate ed esplorate insieme.",
+  "quizIntro": "Tre turni. Ascolta il verso e scegli uno dei tre animali.",
+  "round": "Turno {current} di {total}",
+  "complete": "Hai trovato tutti e tre gli animali! Gioca ancora o scopri di più nell’app.",
+  "audioError": "Impossibile riprodurre il suono. Tocca di nuovo per riprovare.",
+  "stop": "Ferma il suono",
+  "download": "Continua a esplorare nell’app",
+  "freeQ": "Che cosa è gratuito?",
+  "freeA": "Questo sito include sei animali di esempio. Il pacchetto gratuito dell’app comprende 12 animali; altri contenuti sono disponibili tramite acquisti in-app facoltativi.",
+  "browserQ": "Serve l’app per provare i versi?",
+  "browserA": "No. Ascolta questi sei versi nel browser senza registrarti. Questa demo richiede internet per caricare immagini e suoni.",
+  "parentsQ": "A chi è rivolto?",
+  "parentsA": "Ai bambini piccoli e in età prescolare che scoprono i versi con un genitore o un adulto. Iniziate ascoltando, poi provate insieme il breve gioco degli indovinelli.",
+  "faq": "Domande dei genitori",
+  "languageLabel": "Lingua",
+  "skip": "Vai ai versi degli animali",
+  "screenshotNote": "Schermate dell’app; alcune potrebbero essere in inglese.",
+  "speech": {
+    "cow": "/assets/demo/speech/it/cow.mp3",
+    "dog": "/assets/demo/speech/it/dog.mp3",
+    "cat": "/assets/demo/speech/it/cat.mp3",
+    "sheep": "/assets/demo/speech/it/sheep.mp3",
+    "duck": "/assets/demo/speech/it/duck.mp3",
+    "horse": "/assets/demo/speech/it/horse.mp3"
+  }
+}

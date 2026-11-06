@@ -1,0 +1,66 @@
+{
+  "lang": "es",
+  "language": "Español",
+  "dir": "ltr",
+  "appName": "Sonidos de Animales: Aprende y Juega",
+  "privacy": "Política de Privacidad",
+  "support": "Contactar Soporte",
+  "screenshots": [
+    {
+      "src": "img/screenshots/es-iPhone-Air-home-1-c.png",
+      "alt": "Pantalla de tarjetas de animales"
+    },
+    {
+      "src": "img/screenshots/es-iPhone-Air-home-1-p.png",
+      "alt": "Pantalla de tarjetas de animales"
+    }
+  ],
+  "storeApple": "Descargar en",
+  "storeGoogle": "Disponible en",
+  "animals": {
+    "cow": "Vaca",
+    "dog": "Perro",
+    "cat": "Gato",
+    "sheep": "Oveja",
+    "duck": "Pato",
+    "horse": "Caballo"
+  },
+  "listenHint": "Toca un animal para escuchar su sonido real.",
+  "quizTitle": "Juego de sonidos",
+  "quizHint": "¡Escucha con atención y elige el animal correcto!",
+  "start": "Iniciar juego",
+  "replay": "Repetir",
+  "next": "Siguiente",
+  "retry": "Intentar de nuevo",
+  "correct": "¡Buen trabajo!",
+  "restart": "Jugar de nuevo",
+  "features": "Descubre sonidos de animales, puzles y juegos de preguntas.",
+  "photos": "Fotos reales o dibujos animados — cambia en cualquier momento en configuración.",
+  "hero": "Sonidos de animales para pequeños exploradores",
+  "tryDemo": "Probar los sonidos",
+  "demoIntro": "Conoce seis animales del paquete gratuito de nuestra app. Escuchad y explorad juntos.",
+  "quizIntro": "Tres rondas. Escucha el sonido y elige uno de tres animales.",
+  "round": "Ronda {current} de {total}",
+  "complete": "¡Has encontrado los tres animales! Juega otra vez o descubre más en la app.",
+  "audioError": "No se pudo reproducir el sonido. Toca de nuevo para reintentarlo.",
+  "stop": "Detener sonido",
+  "download": "Sigue explorando en la app",
+  "freeQ": "¿Qué es gratis?",
+  "freeA": "Esta web incluye seis animales de muestra. El paquete gratuito de la app incluye 12 animales; puedes obtener más contenido mediante compras opcionales dentro de la app.",
+  "browserQ": "¿Necesito la app para probar los sonidos?",
+  "browserA": "No. Escucha estos seis sonidos en el navegador sin registrarte. Esta demo necesita internet para cargar las imágenes y los sonidos.",
+  "parentsQ": "¿Para quién es?",
+  "parentsA": "Para niños pequeños y de preescolar que exploran sonidos de animales con un adulto. Escuchad primero y probad después el breve juego de adivinanzas.",
+  "faq": "Preguntas para familias",
+  "languageLabel": "Idioma",
+  "skip": "Ir a los sonidos de animales",
+  "screenshotNote": "Capturas de la app; algunas pantallas pueden estar en inglés.",
+  "speech": {
+    "cow": "/assets/demo/speech/es/cow.mp3",
+    "dog": "/assets/demo/speech/es/dog.mp3",
+    "cat": "/assets/demo/speech/es/cat.mp3",
+    "sheep": "/assets/demo/speech/es/sheep.mp3",
+    "duck": "/assets/demo/speech/es/duck.mp3",
+    "horse": "/assets/demo/speech/es/horse.mp3"
+  }
+}

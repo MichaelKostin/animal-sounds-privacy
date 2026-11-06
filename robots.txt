@@ -1,2 +1,11 @@
-User-agent: *
+User-agent: OAI-SearchBot
+Allow: /
+
+# Preserve the previous opt-out from model-training crawling.
+User-agent: GPTBot
 Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://animalsounds.kostin.app/sitemap.xml

@@ -1,0 +1,66 @@
+{
+  "lang": "en",
+  "language": "English",
+  "dir": "ltr",
+  "appName": "Animal Sounds: Learn & Play",
+  "privacy": "Privacy Policy",
+  "support": "Contact Support",
+  "screenshots": [
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-c.png",
+      "alt": "Animal cards screen"
+    },
+    {
+      "src": "img/screenshots/en-iPhone-Air-home-1-p.png",
+      "alt": "Animal cards screen"
+    }
+  ],
+  "storeApple": "Download on the",
+  "storeGoogle": "Get it on",
+  "animals": {
+    "cow": "Cow",
+    "dog": "Dog",
+    "cat": "Cat",
+    "sheep": "Sheep",
+    "duck": "Duck",
+    "horse": "Horse"
+  },
+  "listenHint": "Tap an animal to hear its real sound.",
+  "quizTitle": "Sound Quiz",
+  "quizHint": "Listen carefully and pick the right animal!",
+  "start": "Start Quiz",
+  "replay": "Repeat",
+  "next": "Next",
+  "retry": "Try again",
+  "correct": "Great job!",
+  "restart": "Play again",
+  "features": "Explore animal sounds, puzzles, and quizzes.",
+  "photos": "Real photos or cartoons — switch anytime in Settings.",
+  "hero": "Animal sounds for little explorers",
+  "tryDemo": "Try animal sounds",
+  "demoIntro": "Meet six animals from our app’s free package. Listen and explore together.",
+  "quizIntro": "Three rounds. Listen to the sound and choose one of three animals.",
+  "round": "Round {current} of {total}",
+  "complete": "You found all three animals! Play again or explore more in the app.",
+  "audioError": "The sound could not play. Please tap again to retry.",
+  "stop": "Stop sound",
+  "download": "Keep exploring in the app",
+  "freeQ": "What is free?",
+  "freeA": "This website includes six sample animals. The app’s free package includes 12 animals; additional content is available through optional in-app purchases.",
+  "browserQ": "Do I need the app to try the sounds?",
+  "browserA": "No. Play these six sounds in your browser without signing up. This web demo needs an internet connection to load its pictures and sounds.",
+  "parentsQ": "Who is this for?",
+  "parentsA": "Toddlers and preschoolers exploring animal sounds with a parent or caregiver. Start with listening, then try the short guessing game together.",
+  "faq": "Questions for parents",
+  "languageLabel": "Language",
+  "skip": "Skip to animal sounds",
+  "screenshotNote": "App screenshots; some screens may be shown in English.",
+  "speech": {
+    "cow": "/assets/demo/speech/en/cow.mp3",
+    "dog": "/assets/demo/speech/en/dog.mp3",
+    "cat": "/assets/demo/speech/en/cat.mp3",
+    "sheep": "/assets/demo/speech/en/sheep.mp3",
+    "duck": "/assets/demo/speech/en/duck.mp3",
+    "horse": "/assets/demo/speech/en/horse.mp3"
+  }
+}

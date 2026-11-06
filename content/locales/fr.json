@@ -1,0 +1,66 @@
+{
+  "lang": "fr",
+  "language": "Français",
+  "dir": "ltr",
+  "appName": "Sons d'Animaux: Apprendre et Jouer",
+  "privacy": "Politique de Confidentialité",
+  "support": "Contacter le Support",
+  "screenshots": [
+    {
+      "src": "img/screenshots/fr-iPhone-Air-home-1-c.png",
+      "alt": "Écran des cartes d'animaux"
+    },
+    {
+      "src": "img/screenshots/fr-iPhone-Air-home-1-p.png",
+      "alt": "Écran des cartes d'animaux"
+    }
+  ],
+  "storeApple": "Télécharger sur l'",
+  "storeGoogle": "Disponible sur",
+  "animals": {
+    "cow": "Vache",
+    "dog": "Chien",
+    "cat": "Chat",
+    "sheep": "Mouton",
+    "duck": "Canard",
+    "horse": "Cheval"
+  },
+  "listenHint": "Touchez un animal pour entendre son véritable cri.",
+  "quizTitle": "Quiz des sons",
+  "quizHint": "Écoutez attentivement et choisissez le bon animal !",
+  "start": "Commencer le quiz",
+  "replay": "Répéter",
+  "next": "Suivant",
+  "retry": "Réessayer",
+  "correct": "Bravo !",
+  "restart": "Rejouer",
+  "features": "Découvre les cris des animaux, les puzzles et les quiz.",
+  "photos": "Photos réelles ou dessins animés : changez de style à tout moment dans les paramètres.",
+  "hero": "Des sons d’animaux pour les petits explorateurs",
+  "tryDemo": "Essayer les sons",
+  "demoIntro": "Découvrez six animaux du pack gratuit de notre application. Écoutez et explorez ensemble.",
+  "quizIntro": "Trois manches. Écoutez le son et choisissez parmi trois animaux.",
+  "round": "Manche {current} sur {total}",
+  "complete": "Vous avez trouvé les trois animaux ! Rejouez ou découvrez-en plus dans l’application.",
+  "audioError": "Impossible de lire le son. Touchez à nouveau pour réessayer.",
+  "stop": "Arrêter le son",
+  "download": "Continuez dans l’application",
+  "freeQ": "Qu’est-ce qui est gratuit ?",
+  "freeA": "Ce site propose six animaux à découvrir. Le pack gratuit de l’application comprend 12 animaux ; du contenu supplémentaire est disponible via des achats intégrés facultatifs.",
+  "browserQ": "Faut-il l’application pour essayer les sons ?",
+  "browserA": "Non. Écoutez ces six sons dans votre navigateur sans inscription. Cette démo nécessite une connexion internet pour charger les images et les sons.",
+  "parentsQ": "À qui s’adresse cette activité ?",
+  "parentsA": "Aux tout-petits et aux enfants de maternelle accompagnés d’un parent ou d’un adulte. Écoutez d’abord, puis essayez ensemble le petit jeu de devinettes.",
+  "faq": "Questions des parents",
+  "languageLabel": "Langue",
+  "skip": "Aller aux sons d’animaux",
+  "screenshotNote": "Captures de l’application ; certains écrans peuvent être en anglais.",
+  "speech": {
+    "cow": "/assets/demo/speech/fr/cow.mp3",
+    "dog": "/assets/demo/speech/fr/dog.mp3",
+    "cat": "/assets/demo/speech/fr/cat.mp3",
+    "sheep": "/assets/demo/speech/fr/sheep.mp3",
+    "duck": "/assets/demo/speech/fr/duck.mp3",
+    "horse": "/assets/demo/speech/fr/horse.mp3"
+  }
+}

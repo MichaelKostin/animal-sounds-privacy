@@ -1,0 +1,66 @@
+{
+  "lang": "ko",
+  "language": "한국어",
+  "dir": "ltr",
+  "appName": "동물 소리: 배우고 놀기",
+  "privacy": "개인정보 보호정책",
+  "support": "지원팀 문의",
+  "screenshots": [
+    {
+      "src": "img/screenshots/ko-iPhone-Air-home-1-c.png",
+      "alt": "동물 카드 화면"
+    },
+    {
+      "src": "img/screenshots/ko-iPhone-Air-home-1-p.png",
+      "alt": "동물 카드 화면"
+    }
+  ],
+  "storeApple": "App Store에서",
+  "storeGoogle": "Google Play에서",
+  "animals": {
+    "cow": "소",
+    "dog": "개",
+    "cat": "고양이",
+    "sheep": "양",
+    "duck": "오리",
+    "horse": "말"
+  },
+  "listenHint": "동물을 탭하여 진짜 소리를 들어보세요.",
+  "quizTitle": "소리 퀴즈",
+  "quizHint": "주의 깊게 듣고 올바른 동물을 선택하세요!",
+  "start": "퀴즈 시작",
+  "replay": "반복",
+  "next": "다음",
+  "retry": "다시 시도",
+  "correct": "참 잘했어요!",
+  "restart": "다시 하기",
+  "features": "동물 소리, 퍼즐, 퀴즈를 즐겨 보세요.",
+  "photos": "실제 사진 또는 만화 — 설정에서 언제든지 전환 가능합니다.",
+  "hero": "작은 탐험가를 위한 동물 소리",
+  "tryDemo": "동물 소리 체험하기",
+  "demoIntro": "앱의 무료 패키지에 있는 동물 여섯 마리를 만나 보세요. 함께 듣고 탐험해요.",
+  "quizIntro": "총 세 문제예요. 소리를 듣고 세 동물 중 하나를 골라 보세요.",
+  "round": "{total}문제 중 {current}번째",
+  "complete": "동물 세 마리를 모두 찾았어요! 다시 놀거나 앱에서 더 만나 보세요.",
+  "audioError": "소리를 재생할 수 없어요. 다시 눌러 주세요.",
+  "stop": "소리 멈추기",
+  "download": "앱에서 더 탐험해요",
+  "freeQ": "무엇이 무료인가요?",
+  "freeA": "이 사이트에서는 동물 여섯 마리를 체험할 수 있어요. 앱의 무료 패키지에는 12마리가 포함되며, 추가 콘텐츠는 선택적 앱 내 구매로 이용할 수 있어요.",
+  "browserQ": "소리를 들으려면 앱이 필요한가요?",
+  "browserA": "아니요. 가입 없이 브라우저에서 여섯 가지 소리를 들을 수 있어요. 데모의 그림과 소리를 불러오려면 인터넷 연결이 필요해요.",
+  "parentsQ": "누구를 위한 서비스인가요?",
+  "parentsA": "부모님이나 보호자와 동물 소리를 탐험하는 영유아와 미취학 아동을 위한 서비스예요. 먼저 듣고 짧은 맞히기 놀이를 함께 해 보세요.",
+  "faq": "보호자를 위한 질문과 답변",
+  "languageLabel": "언어",
+  "skip": "동물 소리로 건너뛰기",
+  "screenshotNote": "앱 화면 예시이며 일부 화면은 영어로 표시될 수 있어요.",
+  "speech": {
+    "cow": "/assets/demo/speech/ko/cow.mp3",
+    "dog": "/assets/demo/speech/ko/dog.mp3",
+    "cat": "/assets/demo/speech/ko/cat.mp3",
+    "sheep": "/assets/demo/speech/ko/sheep.mp3",
+    "duck": "/assets/demo/speech/ko/duck.mp3",
+    "horse": "/assets/demo/speech/ko/horse.mp3"
+  }
+}

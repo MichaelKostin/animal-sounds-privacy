@@ -1,0 +1,66 @@
+{
+  "lang": "ja",
+  "language": "日本語",
+  "dir": "ltr",
+  "appName": "動物の音：学んで遊ぼう",
+  "privacy": "プライバシーポリシー",
+  "support": "サポートに連絡",
+  "screenshots": [
+    {
+      "src": "img/screenshots/ja-iPhone-Air-home-1-c.png",
+      "alt": "動物カード画面"
+    },
+    {
+      "src": "img/screenshots/ja-iPhone-Air-home-1-p.png",
+      "alt": "動物カード画面"
+    }
+  ],
+  "storeApple": "App Storeで",
+  "storeGoogle": "Google Playで",
+  "animals": {
+    "cow": "ウシ",
+    "dog": "イヌ",
+    "cat": "ネコ",
+    "sheep": "ヒツジ",
+    "duck": "アヒル",
+    "horse": "ウマ"
+  },
+  "listenHint": "動物をタップして本物の音を聞いてください。",
+  "quizTitle": "音クイズ",
+  "quizHint": "注意深く聞いて正しい動物を選んでください！",
+  "start": "クイズ開始",
+  "replay": "繰り返し",
+  "next": "次へ",
+  "retry": "もう一度試す",
+  "correct": "よくできました！",
+  "restart": "もう一度あそぶ",
+  "features": "動物の鳴き声、パズル、クイズを楽しもう。",
+  "photos": "実写写真またはアニメ — 設定でいつでも切り替え可能。",
+  "hero": "小さな探検家のための動物の鳴き声",
+  "tryDemo": "動物の鳴き声を試す",
+  "demoIntro": "アプリの無料パックから6種類の動物をご紹介。一緒に聞いて、楽しみましょう。",
+  "quizIntro": "全3問。鳴き声を聞いて、3種類の動物から選んでください。",
+  "round": "{total}問中{current}問目",
+  "complete": "3種類とも見つけました！もう一度遊ぶか、アプリでもっと楽しみましょう。",
+  "audioError": "音を再生できませんでした。もう一度タップしてください。",
+  "stop": "音を止める",
+  "download": "アプリでもっと楽しもう",
+  "freeQ": "何が無料ですか？",
+  "freeA": "このサイトでは6種類の動物を体験できます。アプリの無料パックには12種類が含まれ、追加コンテンツは任意のアプリ内購入で利用できます。",
+  "browserQ": "鳴き声を試すにはアプリが必要ですか？",
+  "browserA": "いいえ。登録せずにブラウザで6種類の鳴き声を聞けます。このデモの画像と音声を読み込むにはインターネット接続が必要です。",
+  "parentsQ": "誰向けですか？",
+  "parentsA": "保護者と一緒に動物の鳴き声を楽しむ幼児や未就学児向けです。まずは聞いてから、短い当てっこ遊びを一緒に試しましょう。",
+  "faq": "保護者の方へ",
+  "languageLabel": "言語",
+  "skip": "動物の鳴き声へ移動",
+  "screenshotNote": "アプリの画面例です。一部は英語で表示される場合があります。",
+  "speech": {
+    "cow": "/assets/demo/speech/ja/cow.mp3",
+    "dog": "/assets/demo/speech/ja/dog.mp3",
+    "cat": "/assets/demo/speech/ja/cat.mp3",
+    "sheep": "/assets/demo/speech/ja/sheep.mp3",
+    "duck": "/assets/demo/speech/ja/duck.mp3",
+    "horse": "/assets/demo/speech/ja/horse.mp3"
+  }
+}
