@@ -1,8 +1,24 @@
-:root { color-scheme: light dark; }
-body { margin: 0 auto; padding: 24px; max-width: 800px; line-height: 1.6; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
-h1, h2 { line-height: 1.25; }
-h1 { margin-bottom: 0.25rem; }
-.muted { opacity: 0.75; font-size: 0.95rem; margin-top: 0; }
-a { text-decoration: underline; }
-ul { padding-left: 1.25rem; }
-footer { margin-top: 3rem; font-size: 0.9rem; opacity: 0.75; }
+/* Document pages share the home page palette, typography, and navigation. */
+.document-content {
+  max-width: 850px;
+  margin-block: 36px 56px;
+  padding: clamp(24px, 5vw, 56px);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow-wrap: anywhere;
+}
+.document-content h1 { font-size: clamp(2rem, 4.6vw, 3.4rem); }
+.document-content h2 { margin-top: 36px; font-size: clamp(1.3rem, 2.8vw, 1.8rem); }
+.document-content p, .document-content li { color: var(--muted); }
+.document-content strong { color: var(--ink); }
+.document-content a { color: var(--green); text-underline-offset: 4px; }
+.document-content ul { padding-inline-start: 1.25rem; }
+.document-content li + li { margin-top: 8px; }
+.document-content .muted { font-size: .95rem; }
+.document-content > :last-child { margin-bottom: 0; }
+.document-page footer { border-top: 1px solid var(--line); }
+.document-page footer a[aria-current] { color: var(--green); font-weight: 750; }
+@media (max-width: 760px) {
+  .document-content { margin-block: 20px 32px; }
+}

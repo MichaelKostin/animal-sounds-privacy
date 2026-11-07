@@ -42,10 +42,7 @@ ${locales.map(a=>`<link rel="alternate" hreflang="${a.lang}" href="${url(a)}">`)
 </head>
 <body>
 <a class="skip-link" href="#demo">${esc(l.skip)}</a>
-<header class="site-header wrap">
-<a class="brand" href="${url(l)}"><img src="/img/adaptive-icon.png" width="44" height="44" alt=""><span>${esc(l.appName)}</span></a>
-<details class="languages"><summary>${esc(l.languageLabel)} · <span lang="${l.lang}">${esc(l.language)}</span></summary><nav aria-label="${esc(l.languageLabel)}">${locales.map(a=>`<a href="${url(a)}" lang="${a.lang}" hreflang="${a.lang}"${a.lang===l.lang?' aria-current="page"':''}>${esc(a.language)}</a>`).join('')}</nav></details>
-</header>
+${header(l, locales)}
 <main>
 <section class="hero wrap" aria-labelledby="hero-title">
 <div><p class="eyebrow">${esc(l.appName)}</p><h1 id="hero-title">${esc(l.hero)}</h1><p class="lede">${esc(l.demoIntro)}</p><a class="primary link-button" href="#demo">${esc(l.tryDemo)} <span aria-hidden="true">↓</span></a>${stores}</div>
@@ -67,4 +64,11 @@ ${locales.map(a=>`<link rel="alternate" hreflang="${a.lang}" href="${url(a)}">`)
 <footer class="wrap"><p>© 2026 Mikhail Kostin · ${esc(l.appName)}</p><nav><a href="privacy-policy.html">${esc(l.privacy)}</a><a href="support.html">${esc(l.support)}</a><a href="mailto:support@kostin.app">support@kostin.app</a></nav></footer>
 </body>
 </html>\n`;
+}
+
+export function header(l, locales, filename = "") {
+ return `<header class="site-header wrap">
+<a class="brand" href="${url(l)}"><img src="/img/adaptive-icon.png" width="44" height="44" alt=""><span>${esc(l.appName)}</span></a>
+<details class="languages"><summary><span lang="${l.lang}">${esc(l.language)}</span></summary><nav aria-label="${esc(l.languageLabel)}">${locales.map(a=>`<a href="${url(a)}${filename}" lang="${a.lang}" hreflang="${a.lang}"${a.lang===l.lang?' aria-current="page"':''}>${esc(a.language)}</a>`).join('')}</nav></details>
+</header>`;
 }

@@ -3,6 +3,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { page } from './template.mjs';
+import { styleDocuments } from './style-documents.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const locales = [];
 for (const f of (await readdir(resolve(root, 'content/locales'))).filter(f => f.endsWith('.json')).sort()) {
@@ -18,8 +19,10 @@ for (const locale of locales) {
   }
 }
 const revisions = {};
-for (const asset of ['css/index.css', 'js/demo.js']) revisions[asset] = createHash('sha256').update(await readFile(resolve(root, asset))).digest('hex').slice(0, 12);
+for (const asset of ['css/index.css', 'css/styles.css', 'js/demo.js']) revisions[asset] = createHash('sha256').update(await readFile(resolve(root, asset))).digest('hex').slice(0, 12);
 for (const locale of locales) await writeFile(resolve(root, locale.lang === 'en' ? 'index.html' : `${locale.lang}/index.html`), page(locale, locales, revisions));
 const base = 'https://animalsounds.kostin.app';
 await writeFile(resolve(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${locales.map(l => `  <url><loc>${base}/${l.lang === 'en' ? '' : l.lang + '/'}</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`Generated ${locales.length} static landing pages and sitemap.`);
+
+await styleDocuments(root, locales, revisions);
