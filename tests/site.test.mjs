@@ -15,7 +15,7 @@ for (const file of files) test(`${file}: crawlable localized page and complete a
   assert.match(html, new RegExp(`<html lang="${locale.lang}" dir="${locale.dir}">`));
   assert.equal((html.match(/<h1\b/g)||[]).length, 1);
   assert.doesNotMatch(html, /noindex|undefined|\bNaN\b/);
-  assert.equal((html.match(/rel="alternate"/g)||[]).length, files.length+1);
+  assert.equal((html.match(/rel="alternate" hreflang=/g)||[]).length, files.length+1);
   const canonical = html.match(/rel="canonical" href="([^"]+)"/)[1];
   assert.ok(sitemap.includes(`<loc>${canonical}</loc>`));
   assert.ok(html.includes(`hreflang="${locale.lang}" href="${canonical}"`));
@@ -44,10 +44,41 @@ for (const file of files) test(`${file}: crawlable localized page and complete a
   assert.equal(Object.keys(locale.animals).length,6);
 });
 test('build is deterministic and independent of Moo checkout', async () => {
-  const paths=['index.html','sitemap.xml',...files.filter(f=>f!=='en.json').map(f=>f.replace('.json','/index.html'))];
+  const paths=['sitemap.xml','llms.txt',...files.flatMap(f=>['index.html','support.html','privacy-policy.html','terms-of-use.html'].map(path=>(f==='en.json'?'':f.replace('.json','/'))+path))];
   const before=await Promise.all(paths.map(read));
   execFileSync(process.execPath,['scripts/build.mjs'],{cwd:root});
   assert.deepEqual(await Promise.all(paths.map(read)),before);
+});
+test('every sitemap URL is a distinct indexable page with reciprocal alternates', async () => {
+  const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);
+  assert.equal(urls.length, files.length * 4);
+  assert.equal(new Set(urls).size, urls.length);
+  for (const url of urls) {
+    const path = new URL(url).pathname.slice(1);
+    const html = await read(path.endsWith('/') || !path ? path+'index.html' : path);
+    assert.doesNotMatch(html, /noindex|nofollow/);
+    assert.ok(html.includes(`rel="canonical" href="${url}"`));
+    assert.equal((html.match(/rel="alternate" hreflang=/g)||[]).length, files.length+1);
+    for (const m of html.matchAll(/rel="alternate" hreflang="[^"]+" href="([^"]+)"/g)) assert.ok(urls.includes(m[1]));
+  }
+});
+test('agent guide and audio metadata point to real, public content', async () => {
+  const guide = await read('llms.txt');
+  for (const m of guide.matchAll(/\]\((https:\/\/animalsounds\.kostin\.app\/[^)]*)\)/g)) {
+    const path = new URL(m[1]).pathname.slice(1);
+    await access(resolve(root,path.endsWith('/') || !path ? path+'index.html' : path));
+  }
+  for (const file of files) {
+    const locale=JSON.parse(await read(`content/locales/${file}`));
+    const html=await read(locale.lang==='en'?'index.html':`${locale.lang}/index.html`);
+    const blocks=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m=>JSON.parse(m[1]));
+    const webpage=blocks[1]['@graph'].find(item=>item['@type']==='WebPage');
+    assert.equal(webpage.hasPart.length,6);
+    for (const audio of webpage.hasPart) {
+      assert.ok(Object.values(locale.animals).includes(audio.name));
+      await access(resolve(root,new URL(audio.contentUrl).pathname.slice(1)));
+    }
+  }
 });
 test('crawler policy allows search and retains GPTBot opt-out', async () => {
   const robots=await read('robots.txt');

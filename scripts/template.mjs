@@ -7,7 +7,7 @@ const json = value => JSON.stringify(value).replace(/</g, '\\u003c');
 const url = l => `${base}/${l.lang === 'en' ? '' : l.lang + '/'}`;
 export function page(l, locales, revisions) {
  const title = `${l.appName} — ${l.hero}`;
- const description = `${l.demoIntro} ${l.quizIntro}`;
+ const description = `${l.features} ${l.demoIntro}`;
  const stores = `<div class="store-links"><a class="store-btn" href="${apple}"><img src="/img/apple-logo.svg" alt="" width="24" height="24"><span>App Store</span></a><a class="store-btn" href="${google}"><img src="/img/google-play-logo.svg" alt="" width="24" height="24"><span>Google Play</span></a></div>`;
  const data = {name:l.appName, '@context':'https://schema.org', '@type':'SoftwareApplication', '@id':url(l)+'#app',url:url(l),applicationCategory:'EducationalApplication',operatingSystem:'iOS, Android',description:l.features,inLanguage:l.lang,image:base+'/img/adaptive-icon.png',installUrl:[apple,google],author:{'@type':'Person',name:'Mikhail Kostin'}};
  const config = { animals:slugs.map(slug => ({slug,name:l.animals[slug],image:`/assets/demo/${slug}.png`,sound:`/assets/demo/${slug}.mp3`,speech:l.speech[slug] || null})),strings:Object.fromEntries(['round','complete','audioError','retry','correct','stop','replay'].map(k=>[k,l[k]])),lang:l.lang };
@@ -19,6 +19,8 @@ export function page(l, locales, revisions) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="alternate" type="text/plain" href="${base}/llms.txt" title="Site information for AI agents">
 <link rel="canonical" href="${url(l)}">
 ${locales.map(a=>`<link rel="alternate" hreflang="${a.lang}" href="${url(a)}">`).join('\n')}
 <link rel="alternate" hreflang="x-default" href="${base}/">
@@ -37,6 +39,10 @@ ${locales.map(a=>`<link rel="alternate" hreflang="${a.lang}" href="${url(a)}">`)
 <link rel="manifest" href="/img/site.webmanifest">
 <link rel="stylesheet" href="/css/index.css?v=${revisions['css/index.css']}">
 <script type="application/ld+json">${json(data)}</script>
+<script type="application/ld+json">${json({'@context':'https://schema.org','@graph':[
+ {'@type':'WebSite','@id':base+'/#website',url:base+'/',name:'Animal Sounds: Learn & Play',inLanguage:locales.map(a=>a.lang)},
+ {'@type':'WebPage','@id':url(l)+'#webpage',url:url(l),name:title,description,inLanguage:l.lang,isPartOf:{'@id':base+'/#website'},about:{'@id':url(l)+'#app'},hasPart:slugs.map(slug=>({'@type':'AudioObject',name:l.animals[slug],contentUrl:base+'/assets/demo/'+slug+'.mp3',encodingFormat:'audio/mpeg'}))}
+ ]})}</script>
 <script id="demo-config" type="application/json">${json(config)}</script>
 <script src="/js/demo.js?v=${revisions['js/demo.js']}" defer></script>
 </head>

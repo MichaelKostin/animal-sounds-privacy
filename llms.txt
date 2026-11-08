@@ -1,0 +1,52 @@
+# Animal Sounds: Learn & Play
+
+> An educational animal-sounds app for iOS and Android by Mikhail Kostin, with a free browser demo for toddlers, preschoolers, and their parents or caregivers.
+
+## Facts
+
+- The website offers six real animal recordings: cow, dog, cat, sheep, duck, and horse. No sign-up is required. An internet connection is needed to load the demo.
+- Tap an animal to hear its name (where a localized recording exists), then its sound. A three-round sound quiz is available in the browser.
+- The app includes animal sounds, puzzles, quizzes, and a choice of real photos or cartoons.
+- The app's free package includes 12 animals. Additional content is available through optional in-app purchases.
+- Support: support@kostin.app
+
+## Official links
+
+- [Homepage and browser demo](https://animalsounds.kostin.app/)
+- [App Store](https://apps.apple.com/us/app/animal-sounds-learn-play/id6748567850)
+- [Google Play](https://play.google.com/store/apps/details?id=com.kostin.moo)
+- [Support](https://animalsounds.kostin.app/support.html)
+- [Privacy policy](https://animalsounds.kostin.app/privacy-policy.html)
+- [Terms of use](https://animalsounds.kostin.app/terms-of-use.html)
+- [Sitemap](https://animalsounds.kostin.app/sitemap.xml)
+
+## Localized pages
+
+- [العربية](https://animalsounds.kostin.app/ar/)
+- [Deutsch](https://animalsounds.kostin.app/de/)
+- [English](https://animalsounds.kostin.app/)
+- [Español](https://animalsounds.kostin.app/es/)
+- [فارسی](https://animalsounds.kostin.app/fa/)
+- [Français](https://animalsounds.kostin.app/fr/)
+- [עברית](https://animalsounds.kostin.app/he/)
+- [हिन्दी](https://animalsounds.kostin.app/hi/)
+- [Italiano](https://animalsounds.kostin.app/it/)
+- [日本語](https://animalsounds.kostin.app/ja/)
+- [한국어](https://animalsounds.kostin.app/ko/)
+- [Nederlands](https://animalsounds.kostin.app/nl/)
+- [Polski](https://animalsounds.kostin.app/pl/)
+- [Português](https://animalsounds.kostin.app/pt/)
+- [Русский](https://animalsounds.kostin.app/ru/)
+- [Svenska](https://animalsounds.kostin.app/sv/)
+- [Türkçe](https://animalsounds.kostin.app/tr/)
+- [اردو](https://animalsounds.kostin.app/ur/)
+- [简体中文](https://animalsounds.kostin.app/zh-CN/)
+
+## Audio samples
+
+- [cow](https://animalsounds.kostin.app/assets/demo/cow.mp3)
+- [dog](https://animalsounds.kostin.app/assets/demo/dog.mp3)
+- [cat](https://animalsounds.kostin.app/assets/demo/cat.mp3)
+- [sheep](https://animalsounds.kostin.app/assets/demo/sheep.mp3)
+- [duck](https://animalsounds.kostin.app/assets/demo/duck.mp3)
+- [horse](https://animalsounds.kostin.app/assets/demo/horse.mp3)

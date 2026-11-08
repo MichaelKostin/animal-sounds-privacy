@@ -15,7 +15,13 @@ export async function styleDocuments(root, locales, revisions) {
     for (const { filename, path, html } of documents) {
       const body = html.match(/<body[^>]*>([\s\S]*?)<\/body>/)[1];
       const content = (body.match(/<main[^>]*>([\s\S]*?)<\/main>/) || [null, body])[1].trim();
-      const head = html.slice(0, html.indexOf('<body')).replace(/\s*<link rel="stylesheet"[^>]*>/g, '').replace('</head>', `<link rel="stylesheet" href="/css/index.css?v=${revisions['css/index.css']}">\n<link rel="stylesheet" href="/css/styles.css?v=${revisions['css/styles.css']}">\n</head>`);
+      const base = 'https://animalsounds.kostin.app/';
+      const pageUrl = l => base + (l.lang === 'en' ? '' : l.lang + '/') + filename;
+      const head = html.slice(0, html.indexOf('<body'))
+        .replace(/<meta name="robots"[^>]*>/g, '<meta name="robots" content="index, follow">')
+        .replace(/\s*<link rel="(?:canonical|alternate|stylesheet)"[^>]*>/g, '')
+        .replace(/href="img\//g, 'href="/img/')
+        .replace('</head>', `<link rel="canonical" href="${pageUrl(locale)}">\n${locales.map(l => `<link rel="alternate" hreflang="${l.lang}" href="${pageUrl(l)}">`).join('\n')}\n<link rel="alternate" hreflang="x-default" href="${base + filename}">\n<link rel="stylesheet" href="/css/index.css?v=${revisions['css/index.css']}">\n<link rel="stylesheet" href="/css/styles.css?v=${revisions['css/styles.css']}">\n</head>`);
       const footer = `<footer class="wrap"><p>© 2026 Mikhail Kostin</p><nav>${documents.map(doc => `<a href="${doc.filename}"${doc.filename === filename ? ' aria-current="page"' : ''}>${doc.title}</a>`).join('')}<a href="mailto:support@kostin.app">support@kostin.app</a></nav></footer>`;
       await writeFile(path, `${head}<body class="document-page">\n${header(locale, locales, filename)}\n<main class="document-content wrap">\n${content}\n</main>\n${footer}\n</body>\n</html>\n`);
     }

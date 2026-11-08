@@ -5,7 +5,7 @@ Static multilingual homepage and six-animal browser demo, served from this repos
 ## Editing and building
 
 - Edit localized content in `content/locales/*.json`, the shared markup in `scripts/template.mjs`, styles in `css/index.css`, and interaction logic in `js/demo.js`.
-- Run `npm run build` to regenerate all 19 committed landing pages and `sitemap.xml`. Node.js 18+ is sufficient; dependency installation is unnecessary.
+- Run `npm run build` to regenerate all 19 committed landing pages, metadata for the 57 support/legal pages, `sitemap.xml`, and `llms.txt`. Node.js 18+ is sufficient; dependency installation is unnecessary.
 - Run `npm test` for generated-page validation and demo behavior tests. The behavior tests use a small DOM/audio harness; they do not replace browser/device checks.
 - Preview with `python3 -m http.server 8087 --bind 127.0.0.1` and open http://127.0.0.1:8087. Root-relative assets require HTTP serving. Language navigation deliberately uses the canonical production URLs; visit `/ar/`, `/pl/`, etc. directly for local previews.
 
@@ -35,12 +35,12 @@ Check desktop and mobile Safari/Chrome before release:
 
 ## Search and release
 
-`robots.txt` allows public/search crawlers, explicitly allows OAI-SearchBot, and preserves the previous training opt-out for GPTBot. Each landing page has a canonical URL, reciprocal language alternates, an English fallback, social metadata, and factual SoftwareApplication structured data. Legal-page indexing directives remain unchanged.
+`robots.txt` allows public/search crawlers, explicitly allows OAI-SearchBot, and preserves the previous training opt-out for GPTBot. All 76 HTML pages are indexable, with canonical URLs, reciprocal language alternates, and an English fallback. Landing pages include social metadata and factual SoftwareApplication, WebSite, WebPage, and AudioObject structured data. `llms.txt` provides an optional plain-text guide with factual product information, localized pages, and direct audio links; it is not an indexing submission mechanism or a guarantee of AI inclusion.
 
 After publishing through the repository’s existing hosting workflow:
 
 1. Verify the live `robots.txt`, sitemap, canonical URLs, all locale pages, and sample image/audio responses.
-2. In the site owner’s Google Search Console and Bing Webmaster Tools accounts, verify ownership if needed and submit `https://animalsounds.kostin.app/sitemap.xml`. No account credentials or verification tokens are included here.
+2. In the site owner’s Google Search Console and Bing Webmaster Tools accounts, verify ownership if needed and submit `https://animalsounds.kostin.app/sitemap.xml`. In Google's URL Inspection tool, inspect `https://animalsounds.kostin.app/`, run Test Live URL, and request indexing; inspect the reported exclusion reason if it is still absent. An empty `site:` query is not a definitive coverage report. No account credentials or verification tokens are included here.
 3. Check index coverage after launch; compare search impressions, clicks, and queries over the following 4–8 weeks. Search and ChatGPT inclusion are not guaranteed. No tracking script or recurring monitoring job is added.
 
 Deployment and webmaster submissions are separate from generating the local files.
